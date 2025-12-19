@@ -11,7 +11,7 @@ sources:
             data_tests:
             - unique
             - not_null
-            -test the merge conclict 1
+            -test the merge conclict 2
 
         config:
           freshness:
@@ -26,3 +26,4 @@ sources:
 
 
         
+
