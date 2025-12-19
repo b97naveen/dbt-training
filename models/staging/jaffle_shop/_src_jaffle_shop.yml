@@ -11,6 +11,8 @@ sources:
             data_tests:
             - unique
             - not_null
+            -test the merge conclict 1
+
         config:
           freshness:
             warn_after:
@@ -20,6 +22,7 @@ sources:
               count: 1
               period: day
           loaded_at_field: _ETL_LOADED_AT
+
 
 
         
